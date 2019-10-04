@@ -1,0 +1,10 @@
+[package]
+name = "tsar-core"
+version = "0.0.1"
+include = ["core", "list", "math"]
+authors = []
+
+[backends]
+supported = ["Rust", "Go"]
+
+[dependencies]
