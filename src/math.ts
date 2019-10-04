@@ -14,7 +14,7 @@ fn core::math::factorial(n) {
 fn core::math::pow(n, exponent) {
 	result = n;
 
-	for _, __ in range(0, exponent) {
+	for _, __ in range(0, exponent-1) {
 		result = result * n;
 	}
 
