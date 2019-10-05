@@ -25,9 +25,9 @@ fn core::math::pow(n, exponent) {
 fn core::math::sin(angle) {
 	angle = angle % (2*core::math::PI);
 	angle
-	- (pow(angle, 3)/factorial(3))
-	+ (pow(angle, 5)/factorial(5))
-        - (pow(angle, 7)/factorial(7))
+	- (core::math::pow(angle, 3)/core::math::factorial(3))
+	+ (core::math::pow(angle, 5)/core::math::factorial(5))
+        - (core::math::pow(angle, 7)/core::math::factorial(7))
 }
 
 
@@ -35,10 +35,10 @@ fn core::math::sin(angle) {
 fn core::math::cos(angle) {
         angle = angle % (2*core::math::PI);
         1
-        - (pow(angle, 2)/factorial(2))
-        + (pow(angle, 4)/factorial(4))
-        - (pow(angle, 6)/factorial(6))
+        - (core::math::pow(angle, 2)/core::math::factorial(2))
+        + (core::math::pow(angle, 4)/core::math::factorial(4))
+        - (core::math::pow(angle, 6)/core::math::factorial(6))
 }
 
 
-fn core::math::tan(angle) => sin(angle)/cos(angle);
+fn core::math::tan(angle) => core::math::sin(angle)/core::math::cos(angle);
