@@ -7,7 +7,7 @@ core::math::PI = 3.141592653589;
 
 
 fn core::math::factorial(n) {
-	core::list::product(range(1, n))
+	core::list::product(range(1, n+1))
 }
 
 
