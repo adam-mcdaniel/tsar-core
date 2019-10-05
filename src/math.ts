@@ -28,6 +28,7 @@ fn core::math::sin(angle) {
 	- (core::math::pow(angle, 3)/core::math::factorial(3))
 	+ (core::math::pow(angle, 5)/core::math::factorial(5))
         - (core::math::pow(angle, 7)/core::math::factorial(7))
+	+ (core::math::pow(angle, 9)/core::math::factorial(9))
 }
 
 
@@ -38,6 +39,7 @@ fn core::math::cos(angle) {
         - (core::math::pow(angle, 2)/core::math::factorial(2))
         + (core::math::pow(angle, 4)/core::math::factorial(4))
         - (core::math::pow(angle, 6)/core::math::factorial(6))
+	+ (core::math::pow(angle, 8)/core::math::factorial(8))
 }
 
 
