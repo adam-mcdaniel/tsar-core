@@ -39,11 +39,11 @@ fn core["math"]["degrees_to_radians"](degrees) { mul(div(degrees, 360), core["ma
 fn core["math"]["radians_to_degrees"](radians) { mul(div(radians, core["math"]["TAU"]), 360); }
 
 
+core["bool"] = dict()
 
 
-
-True = 1;
-False = 0;
+core["bool"]["True"] = 1;
+core["bool"]["False"] = 0;
 
 
 

@@ -1,3 +1,5 @@
-True = 1;
-False = 0;
+mod core::bool;
+
+core::bool::True = 1;
+core::bool::False = 0;
 
