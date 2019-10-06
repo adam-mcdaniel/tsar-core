@@ -36,15 +36,16 @@ angle = rem(angle, mul(2, core["math"]["PI"]));
 sub(add(sub(add(sub(add(sub(add(sub(1, div((pow)(angle,2), (factorial)(2))), div((pow)(angle,4), (factorial)(4))), div((pow)(angle,6), (factorial)(6))), div((pow)(angle,8), (factorial)(8))), div((pow)(angle,10), (factorial)(10))), div((pow)(angle,12), (factorial)(12))), div((pow)(angle,14), (factorial)(14))), div((pow)(angle,16), (factorial)(16))), div((pow)(angle,18), (factorial)(18))); }
 fn core["math"]["tan"](angle) { div((core["math"]["sin"])(angle), (core["math"]["cos"])(angle)); }
 fn core["math"]["degrees_to_radians"](degrees) { mul(div(degrees, 360), core["math"]["TAU"]); }
-fn core["math"]["radians_to_degrees"](radians) { mul(div(radians, core["math"]["TAU"]), 360); }PI = core["math"]["PI"];
-TAU = core["math"]["TAU"];
-degrees_to_radians = core["math"]["degrees_to_radians"];
-radians_to_degrees = core["math"]["radians_to_degrees"];
+fn core["math"]["radians_to_degrees"](radians) { mul(div(radians, core["math"]["TAU"]), 360); }
 
 
 
 
 
+True = 1;
+False = 0;
 
-(println)(div(PI, 3));
-(println)((degrees_to_radians)((radians_to_degrees)(div(TAU, 6))));
+
+
+
+
