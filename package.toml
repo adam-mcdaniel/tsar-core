@@ -1,7 +1,7 @@
 [package]
 name = "tsar-core"
 version = "0.0.1"
-include = ["core", "list", "math", "bool"]
+include = ["core", "list", "math", "bool", "lambda"]
 authors = []
 
 [backends]
