@@ -26,9 +26,8 @@ fn core::lambda::Pair(a) {
 	|b| { |z| { z(a)(b) } }
 }
 
-core::lambda::Head = core::lambda::True;
-core::lambda::Tail = core::lambda::False;
-
+fn core::lambda::Head(list) => list(core::lambda::True);
+fn core::lambda::Tail(list) => list(core::lambda::False);
 
 
 fn core::lambda::Numeral(n) {
