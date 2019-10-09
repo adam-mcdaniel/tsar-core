@@ -2,14 +2,6 @@
 
 mod core::lambda;
 
-fn core::lambda::Print(val) {
-	print(val); val
-}
-
-fn core::lambda::Println(val) {
-	println(val); val
-}
-
 fn core::lambda::True(a) => |b| {a};
 fn core::lambda::False(a) => |b| {b};
 
