@@ -1,10 +1,9 @@
 [package]
 name = "tsar-core"
 version = "0.0.1"
+authors = ["adam-mcdaniel"]
+foreign = ["tsar_core_foreign", "tsar_std_foreign"]
+# bin.ts  bool.ts  core.ts  lambda.ts  list.ts  math.ts
 include = ["core", "list", "math", "bool", "lambda"]
-authors = []
-
-[backends]
-supported = ["Rust", "Go"]
 
 [dependencies]
