@@ -9,7 +9,7 @@ div = @div;
 rem = @rem;
 not = @not;
 eq  = @eq;
-neq = @neq;
+fn neq(a, b) => not(eq(a, b));
 
 list  = @list;
 len   = @len;
