@@ -20,3 +20,7 @@ reverse = @reverse;
 map     = @map;
 filter  = @filter;
 reduce  = @reduce;
+
+
+true = 1;
+false = 0;
