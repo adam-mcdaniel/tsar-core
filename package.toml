@@ -3,6 +3,6 @@ name = "tsar-core"
 version = "0.0.1"
 authors = ["adam-mcdaniel"]
 foreign = ["tsar_core_foreign"]
-include = ["core", "list", "math", "bool", "lambda", "string"]
+include = ["core", "string", "list", "math", "bool", "lambda"]
 
 [dependencies]

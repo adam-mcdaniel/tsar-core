@@ -10,7 +10,7 @@ fn core::list::join(list) {
 	result = "";
 	
 	for _, elem in list {
-		result = result + format(elem);
+		result = result + std::string::fmt(elem);
 	}
 
 	result
