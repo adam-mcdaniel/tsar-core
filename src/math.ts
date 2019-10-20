@@ -1,6 +1,3 @@
-
-
-
 mod core::math;
 
 core::math::PI = 3.141592653589;
